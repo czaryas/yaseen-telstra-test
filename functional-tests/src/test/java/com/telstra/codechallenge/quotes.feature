@@ -31,4 +31,4 @@ Feature: As an api user I want to retrieve some spring boot quotes
     # Define the required schema
     * def quoteSchema = { type : 'success', value : { id : '#number', quote : '#string' } }
     # The response should have an array of 12 quote objects
-    And match response == '#[12] quoteSchema' 
+    And match response == '#[12] quoteSchema'
